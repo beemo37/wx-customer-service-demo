@@ -1,0 +1,6 @@
+logging:
+  pattern: "%d [%thread] [%X{trace_id:--}] [%X{span_id:--}] %-5level %logger - [%X{bizinfo:--}]%msg%n"
+
+beemo:
+  token: TOKEN
+  encoding-aes-key: ENCODING_AES_KEY
